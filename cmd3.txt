@@ -1,0 +1,89 @@
+ ng g m product --flat -m app.module
+ ng g m shared/shared --flat -m product-list/product.module
+ ng serve --host 0.0.0.0 --port 4205
+ npm run --host 0.0.0.0 --port 4205
+ 
+ 
+ npm run-script build
+ 
+ nginx.exe -s stop
+ nginx.exe -s quit
+
+//////////////////////////////Bootstarp/////////////////////////////////// 
+ 
+ import 'bootstrap/dist/css/bootstrap.min.css';
+ 
+//////////////////////////////React Bolilerplate/////////////////////////////////// 
+ 
+ https://github.com/KleoPetroff/react-webpack-boilerplate
+ 
+//////////////////////////////////set PORT//////////////////////////////////////
+ 
+ "start": "set PORT=3011 && node scripts/start.js --history-api-fallback",
+ 
+ "start": "react-scripts start",
+ 
+ feature-l1-selection
+ 
+ npm run eject
+
+/////////////////////////////////Upload files on repsitory/////////////////////////
+
+
+git clone 'https://github.com/mugdhasonawane88/ReactTodoApp'
+
+copy all required files in this folder
+git init
+git add .
+git commit -m 'initial commit'
+git push origin master
+
+...................Hard Pull...................
+git reset --hard HEAD
+
+...................pull data...................
+git status
+git pull origin master
+
+
+...................commit data..................
+
+git status
+git add *
+git commit -m "added files"
+git push origin mugdha
+
+.......to commit files on master branch........
+git status
+git add .
+git commit -m "added files"
+git push origin master
+
+...............to switch branch................
+git checkout gauri
+
+...............create branch................
+git checkout -b newbranch
+git checkout newbranch
+git merge development
+
+/////////////////////////////////////////////////////////////////////////////
+
+to remove error msg 3000 port is already running
+Fire below 2 commands
+
+1.  netstat -a -o -n
+
+this will give a list of all task runnin with port number
+
+2. taskkill /F /PID 10248
+
+Note run this command on CMD
+enter task no for given port (i:e 10248) 
+
+json-server --watch db.json --port 3001
+
+
+/////////////////////////////////Backend/////////////////////////////////////////
+
+
